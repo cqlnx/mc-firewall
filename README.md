@@ -22,6 +22,15 @@ By default, it downloads the Minescan blocklist and blocks inbound connections o
 
 ---
 
+## Minescan API
+
+The Minescan API endpoint is rate-limited to **5 requests per minute** and **60 requests per hour**. If you're using a custom script or frequently refreshing the blocklist, make sure your requests stay within these limits.
+
+For updates, support, and discussion, join the **Minescan Discord server:**
+https://discord.gg/AYbDNEWgHE
+
+---
+
 ## Options
 
 | Flag | Description | Default |
